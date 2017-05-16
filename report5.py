@@ -30,5 +30,5 @@ for d_l in range(-moving_d, moving_d):
 
 x = range(-moving_d, moving_d)
 plt.plot(x, Elist)
-plt.plot()
+plt.savefig('repo5.png')
 plt.show()
